@@ -1,0 +1,42 @@
+    1  sudo yum install git
+    2  git clone https://github.com/dileeppasala18/linux_commands.git
+    3  ls
+    4  cd linux_commands/
+    5  cat>first
+    6  cat first
+    7  cat >>first
+    8  cat first
+    9  touch f1
+   10  cat>>f1
+   11  cat f1
+   12  ls
+   13  ls-l
+   14  ls -l
+   15  mkdir c1
+   16  cd c1
+   17  cd ..
+   18  ls
+   19  vim f1
+   20  touch f2
+   21  vim f2
+   22  cat f2
+   23  ls
+   24  ls -l
+   25  ls -lr
+   26  ls -ltr
+   27  cat f1 f2
+   28  touch f3
+   29  mv f2 f3
+   30  ls
+   31  cat f3
+   32  touch t3
+   33  cp f3 t3
+   34  cat t3
+   35  ls
+   36  rm t3
+   37  ls
+   38  touch t3
+   39  rm -f t3
+   40  ls
+   41  history
+

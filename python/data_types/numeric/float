@@ -1,0 +1,8 @@
+a=1.234
+print(type(a))
+
+b=-3.45
+print(type(b))
+
+c=9.76543
+print(type(c))

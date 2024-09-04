@@ -1,0 +1,10 @@
+str="dileep"
+
+#indexing
+print(str[3])
+
+#negative indexing
+print(str[-2])
+
+#slicing
+print(str[2:6])

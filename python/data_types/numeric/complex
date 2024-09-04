@@ -1,0 +1,8 @@
+a=3+5j
+print(type(a))
+
+b=5+6j
+print(type(b))
+
+c=9+7j
+print(type(c))
