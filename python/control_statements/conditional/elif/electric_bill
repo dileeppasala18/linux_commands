@@ -1,0 +1,24 @@
+#to print the electric bill
+
+meter_no=int(input("enter the meter number:"))
+previous_reading=int(input("enter the previous reading:"))
+current_reading=int(input("enter the current_reading:"))
+units=current_reading-previous_reading
+
+if units <=100:
+    unit_charge=2.50
+    
+elif units <= 150:
+    unit_charge=3.50
+    
+elif units <=200:
+    unit_charge=4.50
+    
+elif units <=300:
+    unit_charge=5.50
+            
+elif units >300:
+    unit_charge=6.50
+    
+else:
+    print("enter the valid units to check:")

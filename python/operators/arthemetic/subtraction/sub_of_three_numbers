@@ -1,0 +1,6 @@
+#subtraction of three numbers
+a=int(input("enter the a value"))
+b=int(input("enter the b value"))
+c=int(input("enter the c value"))
+z=a-b-c
+print("the subtracton of ",a, "and" ,b, "and" ,c "is",z)

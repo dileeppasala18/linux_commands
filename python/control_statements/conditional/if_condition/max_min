@@ -1,0 +1,23 @@
+# to print max of two numbers
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+if a>b :
+    print(a,"is maximum")
+else:
+    print(b,"is miximum")
+
+
+#to print the max of three numbers
+    
+a=int(input("enter the a value"))
+b=int(input("enter the b value"))
+c=int(input("enter the c value"))
+if a>b and a>c:
+    max=a
+else:
+    if b>c:
+        max=b
+    else:
+        max=c
+print("max of {} and {} and {} is {} ".format(a,b,c,max))

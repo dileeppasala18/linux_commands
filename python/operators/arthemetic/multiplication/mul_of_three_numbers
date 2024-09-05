@@ -1,0 +1,5 @@
+x=int(input("enter the x value"))
+y=int(input("enter the y value"))
+z=int(input("enter the z value"))
+a=x*y*z
+print("multiplication of ",x,"and",y,"z","is",a)

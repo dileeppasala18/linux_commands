@@ -1,0 +1,12 @@
+# to print the given number is polindrum or not
+
+n=int(input("enter the number"))
+t=n
+r=0
+while(n>0):
+    r=r*10+(n%10)
+    n=n//10
+if(t==r):
+    print(t,"is a polindrum")
+else:
+    print(t,"is not a polindrum")

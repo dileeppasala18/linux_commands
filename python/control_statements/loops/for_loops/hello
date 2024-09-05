@@ -1,0 +1,4 @@
+#to print hello statement 10 times
+
+for x in range(10):
+   print("hello")

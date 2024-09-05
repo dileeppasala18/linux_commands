@@ -1,0 +1,8 @@
+#program to check biggest of two numbers
+
+i=int(input("Enter num1:"))
+j=int(input("Enter num2:"))
+if i>j:
+ print(i,"is big")
+else:
+ print(j,"is big")

@@ -1,0 +1,19 @@
+#to checking the weekdays using if else
+
+option=int(input("enter the day number to check:"))
+if option==1:
+    print("the week day is sunday")
+elif option==2:
+    print("the week day is monday")
+elif option==3:
+    print("the week day is tuesday")
+elif option==4:
+    print("the week day is wednesday")
+elif option==5:
+    print("the week day is thursday")
+elif option==6:
+    print(" friday")
+elif option==7:
+    print("the week day is saturday")
+else:
+    print("you enter the number is invalid number")

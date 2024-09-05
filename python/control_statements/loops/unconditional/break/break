@@ -1,0 +1,15 @@
+#break statement:
+
+for i in range(10): 
+    print(i) 
+    if i == 2: 
+        break
+
+#to print numbers using break statment
+
+num = 0
+for i in range(10): 
+    num += 1
+    if num == 8: 
+        break
+    print("The num has value:", num)

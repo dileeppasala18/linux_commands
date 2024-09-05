@@ -1,0 +1,7 @@
+#to print the leap year or non_leap year
+
+n=int(input("enter the year"))
+if n%4==0:
+    print(n,"is leap")
+else:
+    print(n,"is non_leap_year")

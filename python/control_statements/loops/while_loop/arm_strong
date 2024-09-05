@@ -1,0 +1,13 @@
+#to print the arm strong number between 1000
+i=1
+while(i<=1000):
+    n=i
+    s=0
+    while(n>0):
+        r=n%10
+        s=s+(r*r*r)
+        n=n//10
+    if(i==s):
+        print(i,"is arm strong number")
+    i+=1
+print("close")

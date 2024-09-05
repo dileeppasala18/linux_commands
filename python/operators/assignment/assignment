@@ -1,0 +1,31 @@
+x = 10
+print(f"Initial value of x: {x}")
+
+# Using +=
+x += 5
+print(f"After x += 5: {x}")
+
+# Using -=
+x -= 3
+print(f"After x -= 3: {x}")
+
+# Using *=
+x *= 2
+print(f"After x *= 2: {x}")
+
+# Using /=
+x /= 4
+print(f"After x /= 4: {x}")
+
+# Using //=
+x //= 2
+print(f"After x //= 2: {x}")
+
+# Using %=
+x %= 3
+print(f"After x %= 3: {x}")
+
+# Using **=
+x **= 2
+print(f"After x **= 2: {x}")
+

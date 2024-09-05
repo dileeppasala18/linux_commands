@@ -1,0 +1,6 @@
+#sum of three numbers
+x=int(input("enter the number"))
+y=int(input("enter the number"))
+z=int(input("enter the number"))
+f=x+y+z
+print("sum is",f)
