@@ -1,0 +1,30 @@
+#area of rectangle in 4 types
+#with arguments and return type
+def area(l,b):
+    a=l*b
+    return(a)
+k=area(10,20)
+print(k)
+
+#with arguments and no return type
+def area(l,b):
+    a=l*b
+    print(a)    
+area(10,20)
+
+#with no arguments and return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    return(a)
+k=area()
+print(k)
+
+#with no arguments and no return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    print(a)
+area()

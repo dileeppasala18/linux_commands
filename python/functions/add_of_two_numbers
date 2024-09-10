@@ -1,0 +1,32 @@
+#addition of two numbers
+#with arguments and return type
+def sum(x,y):
+    z=x+y
+    return(z)
+k=sum(10,20)
+print(k)
+
+#with arguments and no return type
+def sum(x,y):
+    z=x+y
+    print(z)    
+sum(10,20)
+
+#with no arguments and return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    return(z)
+k=sum()
+print(k)
+
+#with no arguments and no return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    print(z)
+sum()
+
+
