@@ -1,0 +1,8 @@
+# Function to filter positive numbers from the list
+
+def filter_positive_numbers(lst):
+    return [num for num in lst if num > 0]
+
+my_list = [-10, 20, -30, 40, 0, 50, -60]
+positive_numbers = filter_positive_numbers(my_list)
+print(f"Positive numbers in the list: {positive_numbers}")

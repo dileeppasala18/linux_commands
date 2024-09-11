@@ -1,0 +1,10 @@
+# Function to check if an element exists in the list
+def element_exists(lst, element):
+    return element in lst
+my_list = [1, 2, 3, 4, 5]
+element = int(input("Enter the element to check: "))
+
+if element_exists(my_list, element):
+    print(f"{element} exists in the list.")
+else:
+    print(f"{element} does not exist in the list.")

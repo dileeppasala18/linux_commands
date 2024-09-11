@@ -1,0 +1,20 @@
+# write a program to delete an element in the list
+
+def delete_by_value(lst, value):
+    if value in lst:
+        lst.remove(value)
+        return True
+    else:
+        return False
+
+
+my_list = [1, 2, 3, 4, 5]
+
+value = int(input("Enter the value to delete: "))
+
+if delete_by_value(my_list, value):
+    print(f"Value {value} has been deleted.")
+else:
+    print(f"Value {value} not found in the list.")
+
+print(f"List after deletion: {my_list}")
